@@ -1,0 +1,97 @@
+/*Animations*/
+@keyframes Sources{
+	0%{color: blue;}
+	45%{color: red;}
+	65%{color: greenyellow;}
+	100%{color: blue;}
+}
+
+/*Fonts*/
+
+
+
+
+/*Ids/Classes*/
+#Title{
+    /*Not Final!*/
+   /*display: inline-block;*/
+	background-color: blue;
+	color: orangered;
+	width: 600px;
+}
+
+/*li{
+	list-style-image: url("https://lh3.googleusercontent.com/a-/ALV-UjWJ0bbjm5cr8DACPVl0iOVyEg8nuaGjH5NJxMVl6YOJhWfVQVIL=s88-w88-h88-c-k-no");
+
+}*/
+
+
+body{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.Img-Border{
+	border-style: solid;
+	color: orangered;
+}
+
+li::before {
+    background-image: url("image_URL");
+}
+
+li {
+    background-size: 20px;
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+}
+
+.listImage {
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.CtgRow{
+	text-align: center;
+}
+
+.container{
+	
+	display: inline-flex;
+	
+}
+
+.RoworColBorder{
+	border: 1px white solid;
+}
+
+.SourceLink{
+	text-decoration: none;
+	color: black;
+
+}
+
+.SourceLink:hover{
+	text-decoration: underline;
+	animation-name: Sources;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+
+.NameOfCart{
+	text-decoration: underline;
+	color: orangered;
+	
+}
+
+.NameOfCart:hover{
+	transform: scale(1.05);
+	transition: 0.2s ease;
+}
+
