@@ -4,14 +4,25 @@
 	45%{color: red;}
 	65%{color: greenyellow;}
 	100%{color: blue;}
-}
+};
 
+@keyframes Rgb{
+	0%{background-color: red};
+	50%{background-color: green};
+	100%{background-color: blue};
+}
 /*Fonts*/
 
 
 
 
 /*Ids/Classes*/
+
+body{
+	animation-name: Rgb;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+}
 #Title{
     /*Not Final!*/
    /*display: inline-block;*/
